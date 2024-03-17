@@ -1,0 +1,31 @@
+duplicate mobile number check 
+form getting cleared once we select gender resolved
+pagination done
+patient wise worklist -- done
+treatment dropdown done
+dignosis text field done
+
+edit done
+delete done
+search done
+menu done
+
+refresh after delete done
+update breadcrumb after delete done
+check if number already exists or not while adding existing patient done
+
+add user pages
+change password
+forgot password
+role based access
+study details model representation level tasks
+error handling 
+interactive msg handling
+
+filter via date range, last week, last month, last 6 months, last year
+
+
+add appointment
+row grouping according to time slot on given day
+
+get dignosis from last entry

@@ -1,0 +1,182 @@
+.step-title {
+  font-family: Roboto Slab;
+}
+
+.ms-TextField-fieldGroup {
+  border-radius: 10px !important;
+  width: 400px;
+  height: 32px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 15px;
+  /* padding-top: 5px; */
+
+  border: 0.5px solid #dfdfdf;
+  box-sizing: border-box;
+}
+
+.ms-TextField-field {
+  padding-top: 5px;
+}
+.name-textfield {
+  position: absolute;
+  width: 400px;
+  height: 33px;
+  top: 250px;
+}
+
+.button-1 {
+  width: 175px;
+  height: 34px;
+
+  background: #00539c;
+  border-radius: 4px;
+  left: 200px;
+  font-family: Open Sans;
+  font-weight: normal !important;
+}
+.button-2 {
+  /* position: absolute; */
+  width: 200px;
+  height: 34px;
+  /* top: 440px; */
+
+  background: #00539c;
+  border-radius: 4px;
+  /* left: 200px; */
+  font-family: Open Sans;
+  font-weight: normal !important;
+}
+
+.go-back-1 {
+  width: 54px;
+  height: 20px;
+
+  color: #000000;
+  width: 100px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+.go-back-or-continue {
+  /* width: 90vw; */
+  width: 375px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 53px;
+}
+.go-back {
+  /* width: 54px; */
+  height: 20px;
+  margin-top: 4px;
+  color: #000000;
+  width: 100px;
+  cursor: pointer;
+  font-family: Roboto;
+}
+
+.form {
+  position: absolute;
+  top: 240px;
+  margin-bottom: 10px;
+}
+
+.form-2 {
+  margin-bottom: 10px;
+}
+
+.textfield-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.error {
+  font-size: 12px;
+  color: #a90000;
+  margin-top: 10px;
+}
+
+.separator {
+  width: 400px;
+  /* height: 0px; */
+  /* left: 877px; */
+  margin-top: 10px;
+
+  /* border: 1px solid #dfdfdf; */
+}
+.ms-Checkbox-checkbox {
+  height: 15.5px !important;
+  width: 15.5px !important;
+  margin-right: 10px !important;
+}
+
+.ms-Button-menuIcon {
+  display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-2 {
+    margin-top: 10px;
+    margin-left: 15vw;
+  }
+  .button {
+    /* width: 175px; */
+    height: 34px;
+
+    background: #00539c;
+    border-radius: 4px;
+    left: auto;
+    font-family: Open Sans;
+    position: relative;
+  }
+
+  .ms-TextField-fieldGroup {
+    width: 70vw;
+  }
+
+  .name-textfield {
+    width: 90vw;
+  }
+
+  .button-1 {
+    width: 150px;
+  }
+
+  .button-2 {
+    width: 150px;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+  .go-back-1 {
+    top: 595px;
+  }
+
+  .separator {
+    width: 90vw;
+  }
+
+  .go-back-or-continue {
+    width: 87vw;
+  }
+
+  .sticky-footer {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;
+    top: auto;
+  }
+}
+
+@media only screen and(max-width:600px), screen and (min-height: 780px) {
+  .sticky-footer-for-big-form {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;
+    top: auto;
+  }
+}

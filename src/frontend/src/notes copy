@@ -1,0 +1,34 @@
+Treatment options 
+
+  { key: "chiroPractice", text: "Chiro practice" },
+   { key: "osteopathy", text: "Osteopathy" },
+   { key: "dryNeedling", text: "Dry needling" },
+  { key: "tapping", text: "Tapping" },
+   { key: "cupping", text: "Cupping" },
+{ key: "mfr", text: "MFR" },
+ { key: "tractionCX", text: "Traction CX" },
+ { key: "tractionLX", text: "Traction LX" },
+{ key: "ift", text: "IFT" },
+  { key: "tens", text: "TENS" },
+ { key: "ultrasound", text: "Ultrasound" },
+ { key: "amalgesic", text: "Amalgesic" },
+ { key: "swd", text: "SWD" },
+ { key: "cpmShoulder", text: "CPM - Shoulder" },
+{ key: "cpmKnee", text: "CPM - Knee" },
+{ key: "cpmElbow", text: "CPM - Elbow" },
+
+  { key: "electricalStimulator", text: "Electrical stimulator" },
+
+ { key: "pwb", text: "PWB" },
+
+ { key: "dvtPump", text: "DVT Pump" },
+
+  { key: "shockwave", text: "Shock wave" },
+
+  { key: "laser", text: "Laser" },
+
+ { key: "matrixMachine", text: "Matrix machine" },
+
+  { key: "exercisesOrtho ", text: "Exercises - Ortho " },
+  { key: "exercisesNeuro", text: "Exercises - Neuro" },
+

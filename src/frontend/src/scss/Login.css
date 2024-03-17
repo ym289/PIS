@@ -1,0 +1,114 @@
+.login-card {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 40px;
+  height: 200px;
+  border: 1px solid;
+}
+@media (max-width: 768px) {
+  .login-card {
+    width: 80%;
+  }
+}
+.loginLogo {
+  height: 60px;
+  width: 110px;
+}
+.loginDiv {
+  position: absolute;
+  width: 25%;
+  height: auto;
+  min-width: 300px;
+  max-width: 400px;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+  /* border-radius: 3px; */
+  /* border-style: groove; */
+  padding: 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.MuiTablePagination-selectRoot {
+  margin-right: 2%;
+}
+
+.changePwdDiv {
+  position: relative;
+  width: 25%;
+  height: auto;
+  min-width: 300px;
+  max-width: 400px;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+  /* border-radius: 3px; */
+  /* border-style: groove; */
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-top: 0px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.card {
+  width: 200px;
+  height: 145px;
+  border: 1px solid;
+  border-color: #dfdfdf;
+  border-radius: 10px;
+
+  transition: background-color 0.3s;
+  cursor: pointer;
+  /* background-color: green; */
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.card-title {
+  position: relative;
+  width: 105px;
+  top: 55px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-family: Roboto;
+}
+
+.card {
+  margin-top: 30% !important;
+
+  width: 240px;
+  height: 145px;
+  border: 1px solid;
+  border-color: #10e951;
+  border-radius: 10px;
+
+  transition: background-color 0.3s;
+  cursor: pointer;
+  /* background-color: green; */
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.card-title {
+  position: relative;
+  width: 140px;
+  top: 55px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-family: Roboto;
+}
+
+/* .ms-TextField-fieldGroup {
+  border: none !important;
+} */
